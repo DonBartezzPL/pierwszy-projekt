@@ -1,0 +1,50 @@
+using System;
+
+namespace ConsoleApp2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] tablica = new int[5];
+            
+            for (int i = 0; i<5; i++)
+            {
+                tablica[i] = Convert.ToInt32(Console.ReadLine());
+            }
+            
+            
+                bool zmienna = Pierwsza(tablica[]);
+
+                Console.WriteLine(zmienna);
+            
+
+
+
+
+            /* int numer = int.Parse(Console.ReadLine());
+            bool zmienna = Pierwsza(numer);
+
+            Console.WriteLine(zmienna);*/
+
+
+
+        }
+        static bool Pierwsza(int[] tablica
+        {
+            bool pierwsza = true;
+
+            for (int i = 2; i < numer; i++)
+            {
+                if (numer % i == 0)
+                {
+                    pierwsza = false;
+                    break;
+
+                }
+            }
+
+            return pierwsza;
+        }
+    }
+}
